@@ -1,3 +1,15 @@
+.skip a{
+    position: absolute;
+    top: -40px;
+}
+
+.skip a:focus{
+    position: absolute;
+    top: 55px;
+    left: 5px;
+
+}
+
 body{
     background-color:rgb(163, 203, 236);
 }
@@ -54,4 +66,28 @@ footer{
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;
 }
+
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+.nav_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_links li{
+    padding: 15px;
+    list-style-type: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: navy;
+}
+
+.nav_links a:hover{
+    color: rgb(231, 19, 181);
+    font-size: 120%;
+  }
 

@@ -1,3 +1,49 @@
 body{
     background-color: rgb(161, 212, 161);
 }
+
+#final206{
+    background-color: rgb(202, 218, 255);
+    border: 2px black solid;
+    margin: 8px;
+
+}
+
+
+#code {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    margin: 10px;
+}
+
+#tables{
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px;
+}
+
+#calc{
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 10px;
+}
+
+#graphs{
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin: 10px;
+}
