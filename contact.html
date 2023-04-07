@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link rel="stylesheet" type="text/css" href="/css/contact.css">
     <title>Contact Me</title>
 </head>
 <div class="skip"><a href="#main">Skip to Main Content</a></div>
@@ -16,14 +16,48 @@
             <li><a href= index.html >About Me</a></li>
             <li><a href= resume.html >Resume</a></li>
             <li><a href= projects.html >Projects</a></li>
-            <li><a href= contact.html >Contact</a></li>
+            <li class="current"><a href= contact.html >Contact</a></li>
           </ul>
         </nav>
     </header>
 <body>
-    <main id="main">
+    <main>
       <h1>Contact Me</h1>
+      <div id="photodiv">
+      <img id="contactme" src="images/contactimg.png" width=300 height= auto alt="Mia and her dog sleeping together" />
+      </div>  
+      <br>
+      <form action="https://formspree.io/f/mdovpozk" 
+      method = "post">
+       <fieldset>
+         <legend>Contact Mia Friedman</legend>
+         <br>
+         <label for="full_name">Your Name</label>
+         <input type="text" value="Enter Your Name" id = "full_name" name="full_name">
+         <br/>
+         <br>
+     
+         <label for="email">Your Email</label>
+         <input type="email" value = "email@gmail.com" id = "email" name="email">
+         <br>
+         <br>
+     
+         <label for="phone">Your Phone Number</label>
+         <input type="tel" id="phone" name="phone_number">
+         <div><span>Format: 123-456-7890</span></div>
+         <br>
+     
+         <label for = "message">Leave Your Message for Mia</label>
+         <br>
+         <input type = "text" id="message" name = "message">
+          <br>
+          <br>
+         <input id="main" type="submit" >
+       </fieldset>
+      </form>
     </main>
+    <br>
+    <br>
     <footer>
         <p id= "footer"> Email: mfrieds@umich.edu | 6414 Little Leigh Ct | Phone: (301) 802-8468 <br/>
         </p>

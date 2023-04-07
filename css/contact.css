@@ -1,3 +1,62 @@
 body{
     background-color: rgb(253, 222, 227);
 }
+
+legend{
+    font-family: 'Impact';
+    font-size: 200%;
+}
+
+#message{
+    width: 40%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+span{
+    font-size: 80%;
+    margin-left: 13px;
+}
+
+#photodiv{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 2%;
+}
+
+img {
+    border: 3px solid black;
+    border-radius: 250px;
+}
+
+form{
+    margin-left: 30px;
+}
+
+
+@media screen and (min-width: 500px){
+
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width: 800px){
+
+
+
+
+
+
+
+}

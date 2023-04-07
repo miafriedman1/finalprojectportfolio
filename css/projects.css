@@ -3,20 +3,30 @@ body{
 }
 
 #final206{
-    background-color: rgb(202, 218, 255);
+    background-color: rgb(255, 202, 244);
     border: 2px black solid;
-    margin: 8px;
-
+    margin: 3px;
 }
 
+#api, #bs{
+    height: 200px;
+}
 
-#code {
+#code{
     display: grid;
     justify-items: center;
     justify-content: center;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    margin: 5px;
     grid-gap: 5px;
-    margin: 10px;
+}
+
+#table1, #table2, #table3{
+    height: 250px;
+}
+
+#table1, #table2{
+    margin-left: 40px;
 }
 
 #tables{
@@ -25,17 +35,19 @@ body{
     justify-items: center;
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 10px;
 }
+
 
 #calc{
     display: grid;
-    width: 100%;
-    justify-items: center;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
     margin: 10px;
+    grid-gap: 10px;
+}
+
+#graph1, #graph2, #graph3{
+    height: 300px;
 }
 
 #graphs{
@@ -43,7 +55,72 @@ body{
     width: 100%;
     justify-items: center;
     justify-content: center;
+    grid-template-columns: 1fr;
+    grid-gap: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#website{
+    background-color: rgb(248, 248, 157);
+    border: 2px black solid;
+    margin: 3px;
+
+}
+
+@media screen and (min-width: 500px){
+
+#table1{
+    margin-left: none;
+}
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width: 800px){
+
+#final206{
+    background-color: rgb(202, 218, 255);
+    border: 2px black solid;
+    margin: 8px;
+}
+
+#website{
+    margin: 8px;
+}
+
+#api, #bs{
+    height: 275px;
+}
+
+#code{
+    grid-template-columns: 1fr 1fr;
+}
+
+#table1, #table2, #table3{
+    height: 400px;
+}
+
+#calc1, #calc2{
+    height: auto;
+}
+
+#calc{
+    grid-template-columns: 1fr 1fr;
+}
+
+#graph1, #graph2, #graph3{
+    height: 275px;
+}
+
+#graphs{
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;
-    margin: 10px;
+    /* margin: 10px; */
+}
 }
