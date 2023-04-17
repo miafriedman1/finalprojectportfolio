@@ -2,9 +2,20 @@ body{
     background-color: rgb(253, 222, 227);
 }
 
+img {
+    border: 3px solid black;
+    border-radius: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+
 legend{
     font-family: 'Impact';
-    font-size: 200%;
+    font-size: 150%;
+    color: blue;
 }
 
 #message{
@@ -24,27 +35,32 @@ span{
     margin-left: 13px;
 }
 
-#photodiv{
-    position: absolute;
-    margin-left: 60%;
-    margin-top: 2%;
-}
-
-img {
-    border: 3px solid black;
-    border-radius: 250px;
-}
 
 form{
-    margin-left: 30px;
+    text-align: center;
+    margin-left: 0px;
+    font-size: 120%;
+    color: blue;
 }
 
 
 @media screen and (min-width: 500px){
 
+legend{
+    font-size: 200%;
+    color: black;
 
+}
 
-
+form{
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: black;
+    font-size: 100%;
+    padding: 10px;
+    border: 3px solid black;
+}
 
 
 
@@ -53,10 +69,49 @@ form{
 
 @media screen and (min-width: 800px){
 
+    legend{
+        font-family: 'Impact';
+        font-size: 200%;
+        color: black;
+    }
+    
+    #message{
+        width: 40%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        font-size: 16px;
+        resize: none;
+    }
+    
+    span{
+        font-size: 80%;
+        margin-left: 13px;
+    }
 
-
-
-
+    img{
+        width: 300px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    #photodiv{
+        position: absolute;
+        margin-left: 60%;
+        margin-top: 2%;
+    }
+    
+    
+    form{
+        margin-left: 30px;
+        text-align: left;
+        color: black;
+        font-size: 100%;
+        border: none;
+    }
 
 
 }

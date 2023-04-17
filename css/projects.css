@@ -74,9 +74,13 @@ body{
     margin-left: none;
 }
 
+#final206{
+    background-color: rgb(208, 151, 246);
+}
 
-
-
+#calc{
+    justify-items: center;
+}
 
 
 

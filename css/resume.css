@@ -27,4 +27,8 @@ body{
 #resume{
     width: 70%;
 }
+
+h3{
+    text-align: left;
+}
 }
