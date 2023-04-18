@@ -3,7 +3,7 @@ body{
 }
 
 #final206{
-    background-color: rgb(239, 90, 209);
+    background-color: rgb(235, 120, 212);
     border: 2px black solid;
     margin: 3px;
 }
@@ -120,7 +120,7 @@ body{
 @media screen and (min-width: 1000px){
 
 #final206{
-    background-color: rgb(73, 178, 243);
+    background-color: rgb(141, 206, 246);
     border: 2px black solid;
     margin: 8px;
 }
