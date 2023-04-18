@@ -1,13 +1,13 @@
 .skip a{
     position: absolute;
     top: -40px;
+    color: black;
 }
 
 .skip a:focus{
     position: absolute;
-    top: 55px;
+    top: 60px;
     left: 5px;
-
 }
 
 body{
@@ -136,11 +136,12 @@ footer{
 }
 
 #goodreads{
-    color: white;
-    font-weight: bold;
+    color: black;
+    font-weight: bolder;
+    font-size: 120%;
 }
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 600px){
 
 body{
     background-color:rgb(163, 203, 236);
@@ -172,7 +173,7 @@ header{
 }
 
 #baking{
-    width: 80%;
+    width: 100%;
     grid-template-columns: 1fr 2fr;
     margin: 5px;
     grid-gap: 5px;
@@ -186,7 +187,7 @@ header{
 }
 
 #family {
-    width: -80%;
+    width: -100%;
     direction: rtl;
     grid-template-columns: 1fr 2fr;
     margin: 5px;
@@ -197,7 +198,7 @@ header{
 }
 
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1000px){
 
 body{
     background-color:rgb(123, 175, 216);

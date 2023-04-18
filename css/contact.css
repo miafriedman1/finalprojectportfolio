@@ -15,7 +15,6 @@ img {
 legend{
     font-family: 'Impact';
     font-size: 150%;
-    color: blue;
 }
 
 #message{
@@ -40,11 +39,10 @@ form{
     text-align: center;
     margin-left: 0px;
     font-size: 120%;
-    color: blue;
 }
 
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 600px){
 
 legend{
     font-size: 200%;
@@ -62,12 +60,13 @@ form{
     border: 3px solid black;
 }
 
-
-
+img{
+    border-radius: 0px; 
+}
 
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1000px){
 
     legend{
         font-family: 'Impact';

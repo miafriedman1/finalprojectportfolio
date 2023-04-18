@@ -1,9 +1,9 @@
 body{
-    background-color: rgb(161, 212, 161);
+    background-color: rgb(254, 253, 153);
 }
 
 #final206{
-    background-color: rgb(255, 202, 244);
+    background-color: rgb(239, 90, 209);
     border: 2px black solid;
     margin: 3px;
 }
@@ -44,6 +44,7 @@ body{
     align-items: center;
     margin: 10px;
     grid-gap: 10px;
+    justify-items: center
 }
 
 #graph1, #graph2, #graph3{
@@ -62,13 +63,27 @@ body{
 }
 
 #website{
-    background-color: rgb(248, 248, 157);
+    background-color: rgb(255, 215, 247);
     border: 2px black solid;
     margin: 3px;
 
 }
 
-@media screen and (min-width: 500px){
+#threeeighteight{
+    background-color: rgb(247, 161, 214);
+    border: 2px black solid;
+    margin: 3px;
+}
+
+#threedoc, #threedoc:visited{
+    color: black;
+    font-weight: bolder;
+    size: 120%
+}
+
+
+@media screen and (min-width: 600px){
+
 
 #table1{
     margin-left: none;
@@ -78,32 +93,58 @@ body{
     background-color: rgb(208, 151, 246);
 }
 
+
+#threeeighteight{
+    background-color: rgb(172, 157, 239);
+}
+
+#website{
+    background-color: lavender;
+}
+
+#code{
+    grid-template-columns: 1fr 1fr;
+
+}
+
 #calc{
-    justify-items: center;
+    grid-template-columns: 1fr 1fr;
 }
 
-
+#calc1, #calc2{
+    height: 100%;
+}
 
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1000px){
 
 #final206{
-    background-color: rgb(202, 218, 255);
+    background-color: rgb(73, 178, 243);
     border: 2px black solid;
     margin: 8px;
 }
 
 #website{
+    background-color:rgb(161, 212, 161);
     margin: 8px;
+}
+
+#threeeighteight{
+    background-color: rgb(241, 193, 104);
+}
+
+#code{
+    grid-template-rows: 1fr 1fr;
+}
+
+#bs{
+    grid-row-start: 2;
+    grid-column-start: 2;
 }
 
 #api, #bs{
     height: 275px;
-}
-
-#code{
-    grid-template-columns: 1fr 1fr;
 }
 
 #table1, #table2, #table3{
@@ -114,8 +155,16 @@ body{
     height: auto;
 }
 
+#calc2{
+    height: 250px;
+}
 #calc{
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#calc2{
+    grid-row-start: 2;
+    grid-column-start: 2;
 }
 
 #graph1, #graph2, #graph3{
