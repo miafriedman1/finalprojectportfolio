@@ -1,0 +1,254 @@
+.skip a{
+    position: absolute;
+    top: -40px;
+    color: black;
+}
+
+.skip a:focus{
+    position: absolute;
+    top: 60px;
+    left: 5px;
+}
+
+body{
+    background-color:rgb(197, 224, 246);
+}
+
+h1{
+    text-align: center;
+    font-size: 600%;
+    font-family: 'Impact';
+
+}
+
+h2{
+    width: 100%;
+    text-align: center;
+    font-size: 400%;
+    font-family: 'Impact';
+}
+
+h3{
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Impact';
+}
+
+h3, p{
+    margin: 10px;
+}
+
+p{
+    font-size: 110%;
+    font-family: 'Georgia'; 
+    text-align: center;
+}
+
+#image1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  }
+
+.nav_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav_links li{
+    padding: 15px;
+    list-style-type: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: navy;
+}
+
+.nav_links a:hover{
+    color: rgb(231, 19, 181);
+    font-size: 110%;
+  }
+
+.current{
+    background-color: rgb(212, 212, 212);
+    font-size: 130%;
+    border: solid 2px black;
+    border-radius: 35px;
+}
+
+#book1, #book2, #book3 {
+    height: 200px;
+}
+
+#books {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+#bake1, #bake2{
+    height: 300px;
+}
+
+#bake3{
+    height: 220px;
+}
+
+#baking{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    grid-area: 1/2/1/2;
+    grid-gap: 10px;
+}
+
+#fam1, #fam2{
+    height: 330px;
+}
+
+
+#fam3{
+    height: 220px;
+}
+
+#family{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    grid-area: 1/2/1/2;
+    grid-gap: 10px;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+}
+
+#footer{
+    font-size: 95%;
+    font-family: 'Impact'; 
+}
+
+#goodreads{
+    color: black;
+    font-weight: bolder;
+    font-size: 120%;
+}
+
+@media screen and (min-width: 600px){
+
+body{
+    background-color:rgb(163, 203, 236);
+}
+
+
+.nav_links {
+    flex-direction: row;
+}
+
+#book1, #book2, #book3{
+    height: 275px;
+    border: 2px black solid;
+}
+
+#books{
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-gap: 5px;
+    margin: 5px;
+}
+
+#bake1, #bake2, #bake3{
+    height: 270px;
+    border: 2px black solid;
+}
+
+#baking{
+    width: 100%;
+    grid-template-columns: 1fr 2fr;
+    margin: 5px;
+    grid-gap: 5px;
+    justify-content: start;
+    justify-items: start;
+}
+
+#fam1, #fam2, #fam3{
+    height: 270px;
+    border: 2px black solid;
+}
+
+#family {
+    width: -100%;
+    direction: rtl;
+    grid-template-columns: 1fr 2fr;
+    margin: 5px;
+    grid-gap: 5px;
+    justify-content: start;
+    justify-items: start;
+}
+}
+
+
+@media screen and (min-width: 1000px){
+
+body{
+    background-color:rgb(123, 175, 216);
+}
+
+main p{
+    text-align: start;
+}
+
+header{
+    justify-content: flex-end;
+}
+
+#book1, #book2, #book3{
+    height: 400px;
+    border: none;
+}
+
+#books{
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-gap: 5px;
+    margin: 5px;
+}
+
+#bake1, #bake2, #bake3{
+    height: 300px;
+    border: none;
+}
+
+#baking{
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-gap: 5px;
+    margin: 5px;
+}
+
+#fam1, #fam2, #fam3{
+    height: 330px;
+    border: none;
+}
+
+#family {
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+    direction: ltr;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-gap: 5px;
+    margin: 5px;
+}
+}
