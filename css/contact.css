@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(253, 222, 227);
+    background-color: rgb(247, 186, 238);
 }
 
 img {
@@ -44,6 +44,10 @@ form{
 
 @media screen and (min-width: 600px){
 
+body{
+    background-color: rgb(245, 213, 237);
+}
+
 legend{
     font-size: 200%;
     color: black;
@@ -67,6 +71,10 @@ img{
 }
 
 @media screen and (min-width: 1000px){
+
+body{
+    background-color: rgb(253, 222, 227);
+}
 
     legend{
         font-family: 'Impact';
